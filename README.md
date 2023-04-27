@@ -1,8 +1,8 @@
 # rxcpp-msvc-error
 
-Building this solution worked fine in VS2022 until MSVC toolchain version 14.33. 
+Building solution worked fine in VS2022 up to MSVC toolchain version 14.33. 
 
-Since 14.34 compilation fails with this error:
+Since 14.34 compilation fails with the following error:
 
 ```
 1>C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\utility(492,62): error C2027: use of undefined type 'std::tuple_size<rxcpp::util::detail::surely>'
